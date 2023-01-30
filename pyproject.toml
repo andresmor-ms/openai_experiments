@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "openai-experiments"
+version = "0.1.0"
+description = ""
+authors = ["Andres Morales <andresmor@microsoft.com>"]
+readme = "README.md"
+packages = [{include = "openai_experiments"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
